@@ -3,7 +3,7 @@ print("Step 1: Script started")
 import pandas as pd
 print("Step 2: Pandas imported")
 
-df = pd.read_csv("uk_population_data.csv")
+df = pd.read_excel("uk_population_data.csv.xlsx")
 print("Step 3: CSV loaded")
 df = pd.read_csv("uk_population_data.csv")
 print("Step 4: Data processed")
